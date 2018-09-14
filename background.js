@@ -18,6 +18,7 @@ chrome.runtime.onInstalled.addListener(function() {
   });
 });
 
+var k=0;
 chrome.tabs.onUpdated.addListener(() => {
   chrome.tabs.executeScript(null, {file: "execute.js" });
 });
