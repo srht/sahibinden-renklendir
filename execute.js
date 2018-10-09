@@ -10,7 +10,7 @@ var closerBtn=document.createElement('button');
 closerBtn.innerText='Kapat';
 closerBtn.addEventListener("click",function(){
   commentsDetail.style.display="none";
-});
+}); 
 
 commentsDetail.setAttribute('id','commentsDetail');
 commentsDetail.setAttribute('class','mini-tab-content');
